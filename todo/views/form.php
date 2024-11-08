@@ -1,3 +1,6 @@
+<?php
+/** @var array $todoItem */
+?>
 <!DOCTYPE html>
 <html lang="en">
 
