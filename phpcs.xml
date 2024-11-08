@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ruleset name="CustomRuleset">
+    <!-- Include standard PSR12 rules -->
+    <rule ref="PSR12" />
+
+    <!-- Exclude missing file doc comment -->
+    <rule ref="Generic.Commenting.FileComment">
+        <exclude name="Generic.Commenting.FileComment.Missing" />
+    </rule>
+</ruleset>
