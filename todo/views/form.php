@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <title><?php echo isset($todoItem) ? 'Edit Todo' : 'Add Todo'; ?></title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 
 <body>

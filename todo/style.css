@@ -3,11 +3,20 @@ body {
     background-color: #f4f4f4;
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .container {
+    max-width: 600px;
     width: 80%;
-    margin: auto;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
     overflow: hidden;
 }
 
@@ -50,7 +59,8 @@ header nav {
     margin-top: 10px;
 }
 
-header .highlight, header .current a {
+header .highlight,
+header .current a {
     color: #77aaff;
     font-weight: bold;
 }
@@ -113,7 +123,7 @@ button {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
-    background: #333;
+    background: #007bff;
     color: #fff;
     border: none;
     margin-top: 10px;
@@ -121,7 +131,7 @@ button {
 }
 
 button:hover {
-    background: #77aaff;
+    background: #0056b3;
 }
 
 .button {
@@ -138,4 +148,101 @@ button:hover {
 
 .button:hover {
     background: #77aaff;
+}
+
+a.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #6c757d;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a.button:hover {
+    background-color: #5a6268;
+}
+
+.title {
+    text-align: center;
+    color: #333;
+}
+
+.error-list {
+    color: red;
+    list-style-type: none;
+    padding: 0;
+}
+
+.todo-form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.todo-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.todo-form input[type="text"],
+.todo-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.todo-form button {
+    width: 100%;
+    padding: 10px;
+    background: #28a745;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.todo-form button:hover {
+    background: #218838;
+}
+
+.back-link {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
 }

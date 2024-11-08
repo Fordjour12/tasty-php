@@ -1,3 +1,7 @@
+<?php
+
+/** @var array $todos */
+?>
 <!DOCTYPE html>
 <html lang="en">
 
