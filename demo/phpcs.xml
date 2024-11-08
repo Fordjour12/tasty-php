@@ -1,0 +1,8 @@
+<ruleset>
+
+<rule ref="Generic.Commenting.FileComment">
+    <exclude-pattern>*</exclude-pattern>
+</rule>
+   <rule ref="PSR12"/>
+   <arg value="np"/>
+</ruleset>
